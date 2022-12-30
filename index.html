@@ -6,21 +6,140 @@
         <meta name="viewport" content="width=device-width initial-scale=1.0">
         <title>Portfolio</title>
         <link rel="stylesheet" href="style.css">
+
+        <link rel="stylesheet"
+        href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@400;500;600;700&display=swap" rel="stylesheet">
+
     </head>
     <body>
-        <nav class="navbar">
-            <ul class="link-group">
-                <li><a href="#home">Home</a></li>
+        <header>
+            <a href="#" class="logo">Web Developer</span></a>
+
+            <ul class="navlist">
+                <li><a href="#home" class="active">Home</a></li>
                 <li><a href="#about">About</a></li>
                 <li><a href="#projects">Projects</a></li>
-                <li><a href="#skills">Skills</a></li>
-                <li><a href="=#contact">Contact Me</a></li>
+                <li><a href="#contact">Contact</a></li>
             </ul>
-        </nav>
 
-        <section id="home">
-            <div class="main">
+            <div class="bx bx-menu" id="menu-icon">
+
+            </div>
+        </header>
+        <section class="home" id="home">
+            <div class="home-text">
+                <div class="slide">
+                  <span class="one">Welcome!</span>
+                  <span class="two">I'm</span>
+                </div>
+                <h1>Alaya Guajardo</h1>
+                <h3>Full Stack<span> Developer</span></h3>
+                <p>Recent grad from the University of Texas at Austin. <br> 
+                My goal is to make many more projects<br> and break into the tech world completely!</p>
+                <div class="button">
+                    <a href="#" class="btn">Say Hello</a>
+                </div>
+
             </div>
         </section>
+        <section class="about" id="about">
+            <div class="about-img">
+                <img src="img/aboutpic.JPG">
+                <img src="img/portfoliopic.JPG">
+            </div>
+
+            <div class="about-text">
+                <h2>About <span>Me</span></h2>
+                <h4>Free Lance Developer!</h4>
+                <p>Breaking into the coding world i've learned everything from the frontend to the backend. Coding is a part of my everyday schedule.
+                Throughout the course I did some e-commerce websites, a REACT portfolio, social network API, a team profile generator, a weather API, and plenty more web development. 
+                </p>
+                <a href="#" class="btn">More about me</a>
+            </div>
+        </section>
+
+        <section class="projects" id="projects">
+            <div class="main-text">
+                <h2><span>Latest</span> Projects;</h2>
+            </div>
+
+            <div class="project-content">
+                <div class="row">
+                 <img src="img/project1.JPG">
+                 <div class="layer">
+                    <h5>Money Budget Tracker</h5>
+                    <p>Check out this website that lets you track and budget all your funds! Just 
+                    insert the information and it does the work for you!</p>
+                    <a href="#"><i class='bx bx-link'></i></a>
+                 </div>   
+                </div>
+
+                <div class="row">
+                    <img src="img/project2.JPG">
+                    <div class="layer">
+                       <h5>Peace Of Mind</h5>
+                       <p>This website allows anyone with a need to connect to others regarding mental health and support. We provide a safe space for everyone to discuss their feelings without fear of retaliation</p>
+                       <a href="#"><i class='bx bx-link'></i></a>
+                    </div>   
+                   </div>
+
+                   <div class="row">
+                    <img src="img/project3.JPG">
+                    <div class="layer">
+                       <h5>Tech Land</h5>
+                       <p>This is a website that was made for the use of programmers!
+                        It's a freelance website that makes it easier to find a web developer,<br>
+                        or show case your skills to find work!</p>
+                       <a href="#"><i class='bx bx-link'></i></a>
+                    </div>   
+                   </div>
+            </div>
+        </section>
+
+        <section class="contact" id="contact">
+          <div class="contact-text">
+            <h2>Contact Me!</h2>
+            <h4>With any questions, net working opportunites or about colloborating!</h4>
+            <p>As a upcomming web developer im eager to show case my knowledge - while learning 
+            more from others around me.</p>
+            <div class="list">
+                <li><a href="#">817/808/1725</a></li>
+                <li><a href="#">alayaguxj@gmail.com</a></li>
+                <li><a href="#">Git Hub - alayaa10</a></li>
+            </div>
+            
+            <div class="contact-icons">
+                <a href="#"><i class='bx bxs-envelope'></i></a>
+                <a href="#"><i class='bx bxl-github'></i></a>
+                <a href="#"><i class='bx bxl-instagram'></i></a>
+                <a href="#"><i class='bx bxl-facebook-circle'></i></a>
+            </div>
+         </div>
+
+        <div class="contact-form">
+            <form action="">
+                <input type="name" placeholder="Your Name" required>
+                <input type="email" placeholder="Your Email Address" required>
+                <input type="" placeholder="Your Mobile Number" required>
+                <textarea name="" id="" cols="35" rows="10" placeholder="How Can I Help You" required></textarea>
+                <input type="submit" value="Send Message" class="submit" required>
+            </form>
+        </div>
+    </section>
+
+    <section class="end">
+        <div class="last-text">
+            <p>Copyright  © 2022 by Alaya Guajardo</p>
+        </div>
+
+        <div class="top">
+            <a href="#home"><i class='bx bxs-chevrons-up'></i></a>
+        </div>
+    </section>
+        
+        <script type="script" src="script.js"></script>
     </body>
 </html>
